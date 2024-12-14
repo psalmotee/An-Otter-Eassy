@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+}
+
+.container {
+  width: 75%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.heading {
+  background-color: #ff0099;
+  padding: 20px;
+  position: relative;
+  top: -50px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.content p {
+  line-height: 1.5;
+}

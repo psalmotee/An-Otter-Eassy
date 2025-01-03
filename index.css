@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 75%;
+  max-width: 500px;
   margin: 50px auto;
   background-color: #fff;
   padding: 30px;
@@ -30,6 +30,20 @@ h1 {
   font-weight: 700;
 }
 
+.content {
+  margin-top: -40px;
+}
+
 .content p {
   line-height: 1.5;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 300px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
 }
